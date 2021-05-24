@@ -1,0 +1,977 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:445            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:3306           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:5040           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:17500          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:33060          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49664          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49665          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49666          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49667          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49668          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49669          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49672          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:843          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:49670         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:49671         ESTABLISHED
+  TCP    127.0.0.1:17600        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:49236        IvansMSI:49237         ESTABLISHED
+  TCP    127.0.0.1:49237        IvansMSI:49236         ESTABLISHED
+  TCP    127.0.0.1:49670        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49671        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49673        IvansMSI:49674         ESTABLISHED
+  TCP    127.0.0.1:49674        IvansMSI:49673         ESTABLISHED
+  TCP    127.0.0.1:49962        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:50002        IvansMSI:50003         ESTABLISHED
+  TCP    127.0.0.1:50003        IvansMSI:50002         ESTABLISHED
+  TCP    127.0.0.1:50378        IvansMSI:65001         ESTABLISHED
+  TCP    127.0.0.1:65001        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:65001        IvansMSI:50378         ESTABLISHED
+  TCP    192.168.0.19:139       IvansMSI:0             LISTENING
+  TCP    192.168.0.19:49246     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.0.19:49250     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49253     ec2-52-40-5-175:https  ESTABLISHED
+  TCP    192.168.0.19:49290     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49585     ec2-34-216-90-102:https  ESTABLISHED
+  TCP    192.168.0.19:49621     74.125.137.188:5228    ESTABLISHED
+  TCP    192.168.0.19:49625     lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.19:49864     52.226.111.32:https    ESTABLISHED
+  TCP    192.168.0.19:49875     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.0.19:49954     104.244.42.131:https   ESTABLISHED
+  TCP    192.168.0.19:50021     13.91.194.79:https     CLOSE_WAIT
+  TCP    192.168.0.19:50085     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.0.19:50097     52.167.253.237:https   ESTABLISHED
+  TCP    192.168.0.19:50098     ec2-44-237-234-25:https  ESTABLISHED
+  TCP    192.168.0.19:50100     lax31s01-in-f2:https   TIME_WAIT
+  TCP    192.168.0.19:50101     lax28s01-in-f174:https  TIME_WAIT
+  TCP    192.168.0.19:50106     ec2-54-214-87-230:https  ESTABLISHED
+  TCP    192.168.0.19:50107     ec2-54-214-87-230:https  ESTABLISHED
+  TCP    192.168.0.19:50108     ec2-54-203-112-76:https  ESTABLISHED
+  TCP    192.168.0.19:50109     162.125.2.13:https     ESTABLISHED
+  TCP    192.168.0.19:50110     162.125.2.19:https     ESTABLISHED
+  TCP    [::]:135               IvansMSI:0             LISTENING
+  TCP    [::]:445               IvansMSI:0             LISTENING
+  TCP    [::]:3306              IvansMSI:0             LISTENING
+  TCP    [::]:17500             IvansMSI:0             LISTENING
+  TCP    [::]:33060             IvansMSI:0             LISTENING
+  TCP    [::]:49664             IvansMSI:0             LISTENING
+  TCP    [::]:49665             IvansMSI:0             LISTENING
+  TCP    [::]:49666             IvansMSI:0             LISTENING
+  TCP    [::]:49667             IvansMSI:0             LISTENING
+  TCP    [::]:49668             IvansMSI:0             LISTENING
+  TCP    [::]:49669             IvansMSI:0             LISTENING
+  TCP    [::]:49672             IvansMSI:0             LISTENING
+  TCP    [::1]:49833            IvansMSI:0             LISTENING
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:17500          *:*                    
+  UDP    0.0.0.0:49668          *:*                    
+  UDP    0.0.0.0:49988          *:*                    
+  UDP    0.0.0.0:51779          *:*                    
+  UDP    0.0.0.0:52902          *:*                    
+  UDP    0.0.0.0:54982          *:*                    
+  UDP    0.0.0.0:54984          *:*                    
+  UDP    0.0.0.0:56394          *:*                    
+  UDP    0.0.0.0:56599          *:*                    
+  UDP    0.0.0.0:60730          *:*                    
+  UDP    0.0.0.0:61130          *:*                    
+  UDP    0.0.0.0:63211          *:*                    
+  UDP    0.0.0.0:63651          *:*                    
+  UDP    0.0.0.0:63652          *:*                    
+  UDP    0.0.0.0:64836          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:10020        *:*                    
+  UDP    127.0.0.1:44301        *:*                    
+  UDP    127.0.0.1:49670        *:*                    
+  UDP    127.0.0.1:49671        *:*                    
+  UDP    127.0.0.1:49672        *:*                    
+  UDP    127.0.0.1:59880        *:*                    
+  UDP    127.0.0.1:61189        *:*                    
+  UDP    192.168.0.19:137       *:*                    
+  UDP    192.168.0.19:138       *:*                    
+  UDP    192.168.0.19:1900      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:59879     *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:49669             *:*                    
+  UDP    [::]:51780             *:*                    
+  UDP    [::]:60731             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:59878            *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:1900  *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:59877  *:*                    
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:445            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:3306           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:5040           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:17500          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:33060          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49664          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49665          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49666          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49667          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49668          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49669          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49672          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:843          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:49670         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:49671         ESTABLISHED
+  TCP    127.0.0.1:17600        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:49236        IvansMSI:49237         ESTABLISHED
+  TCP    127.0.0.1:49237        IvansMSI:49236         ESTABLISHED
+  TCP    127.0.0.1:49670        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49671        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49673        IvansMSI:49674         ESTABLISHED
+  TCP    127.0.0.1:49674        IvansMSI:49673         ESTABLISHED
+  TCP    127.0.0.1:49962        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:50002        IvansMSI:50003         ESTABLISHED
+  TCP    127.0.0.1:50003        IvansMSI:50002         ESTABLISHED
+  TCP    127.0.0.1:50378        IvansMSI:65001         ESTABLISHED
+  TCP    127.0.0.1:65001        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:65001        IvansMSI:50378         ESTABLISHED
+  TCP    192.168.0.19:139       IvansMSI:0             LISTENING
+  TCP    192.168.0.19:49246     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.0.19:49250     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49253     ec2-52-40-5-175:https  ESTABLISHED
+  TCP    192.168.0.19:49290     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49585     ec2-34-216-90-102:https  ESTABLISHED
+  TCP    192.168.0.19:49621     74.125.137.188:5228    ESTABLISHED
+  TCP    192.168.0.19:49625     lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.19:49864     52.226.111.32:https    ESTABLISHED
+  TCP    192.168.0.19:49954     104.244.42.131:https   ESTABLISHED
+  TCP    192.168.0.19:50021     13.91.194.79:https     CLOSE_WAIT
+  TCP    192.168.0.19:50085     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.0.19:50098     ec2-44-237-234-25:https  ESTABLISHED
+  TCP    192.168.0.19:50108     ec2-54-203-112-76:https  ESTABLISHED
+  TCP    192.168.0.19:50111     ec2-34-225-131-69:https  ESTABLISHED
+  TCP    192.168.0.19:50112     162.125.7.20:https     ESTABLISHED
+  TCP    192.168.0.19:50113     lax31s12-in-f4:https   LAST_ACK
+  TCP    192.168.0.19:50114     lax31s12-in-f14:https  ESTABLISHED
+  TCP    192.168.0.19:50115     xx-fbcdn-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50116     184.183.131.209:https  ESTABLISHED
+  TCP    192.168.0.19:50117     184.183.131.81:https   ESTABLISHED
+  TCP    192.168.0.19:50118     xx-fbcdn-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50119     edge-star-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50120     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.0.19:50121     xx-fbcdn-shv-02-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50123     52.114.133.61:https    TIME_WAIT
+  TCP    [::]:135               IvansMSI:0             LISTENING
+  TCP    [::]:445               IvansMSI:0             LISTENING
+  TCP    [::]:3306              IvansMSI:0             LISTENING
+  TCP    [::]:17500             IvansMSI:0             LISTENING
+  TCP    [::]:33060             IvansMSI:0             LISTENING
+  TCP    [::]:49664             IvansMSI:0             LISTENING
+  TCP    [::]:49665             IvansMSI:0             LISTENING
+  TCP    [::]:49666             IvansMSI:0             LISTENING
+  TCP    [::]:49667             IvansMSI:0             LISTENING
+  TCP    [::]:49668             IvansMSI:0             LISTENING
+  TCP    [::]:49669             IvansMSI:0             LISTENING
+  TCP    [::]:49672             IvansMSI:0             LISTENING
+  TCP    [::1]:49833            IvansMSI:0             LISTENING
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:17500          *:*                    
+  UDP    0.0.0.0:49668          *:*                    
+  UDP    0.0.0.0:49708          *:*                    
+  UDP    0.0.0.0:49988          *:*                    
+  UDP    0.0.0.0:51779          *:*                    
+  UDP    0.0.0.0:52743          *:*                    
+  UDP    0.0.0.0:54982          *:*                    
+  UDP    0.0.0.0:55150          *:*                    
+  UDP    0.0.0.0:56394          *:*                    
+  UDP    0.0.0.0:58547          *:*                    
+  UDP    0.0.0.0:58548          *:*                    
+  UDP    0.0.0.0:58549          *:*                    
+  UDP    0.0.0.0:60730          *:*                    
+  UDP    0.0.0.0:60904          *:*                    
+  UDP    0.0.0.0:60905          *:*                    
+  UDP    0.0.0.0:63211          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:10020        *:*                    
+  UDP    127.0.0.1:44301        *:*                    
+  UDP    127.0.0.1:49670        *:*                    
+  UDP    127.0.0.1:49671        *:*                    
+  UDP    127.0.0.1:49672        *:*                    
+  UDP    127.0.0.1:59880        *:*                    
+  UDP    127.0.0.1:61189        *:*                    
+  UDP    192.168.0.19:137       *:*                    
+  UDP    192.168.0.19:138       *:*                    
+  UDP    192.168.0.19:1900      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:59879     *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:49669             *:*                    
+  UDP    [::]:51780             *:*                    
+  UDP    [::]:60731             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:59878            *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:1900  *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:59877  *:*                    
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:445            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:3306           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:5040           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:17500          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:33060          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49664          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49665          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49666          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49667          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49668          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49669          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49672          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:843          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:49670         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:49671         ESTABLISHED
+  TCP    127.0.0.1:17600        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:49236        IvansMSI:49237         ESTABLISHED
+  TCP    127.0.0.1:49237        IvansMSI:49236         ESTABLISHED
+  TCP    127.0.0.1:49670        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49671        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49673        IvansMSI:49674         ESTABLISHED
+  TCP    127.0.0.1:49674        IvansMSI:49673         ESTABLISHED
+  TCP    127.0.0.1:49962        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:50002        IvansMSI:50003         ESTABLISHED
+  TCP    127.0.0.1:50003        IvansMSI:50002         ESTABLISHED
+  TCP    127.0.0.1:50378        IvansMSI:65001         ESTABLISHED
+  TCP    127.0.0.1:65001        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:65001        IvansMSI:50378         ESTABLISHED
+  TCP    192.168.0.19:139       IvansMSI:0             LISTENING
+  TCP    192.168.0.19:49246     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.0.19:49250     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49253     ec2-52-40-5-175:https  ESTABLISHED
+  TCP    192.168.0.19:49290     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49585     ec2-34-216-90-102:https  ESTABLISHED
+  TCP    192.168.0.19:49621     74.125.137.188:5228    ESTABLISHED
+  TCP    192.168.0.19:49625     lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.19:49864     52.226.111.32:https    ESTABLISHED
+  TCP    192.168.0.19:50021     13.91.194.79:https     CLOSE_WAIT
+  TCP    192.168.0.19:50085     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.0.19:50098     ec2-44-237-234-25:https  ESTABLISHED
+  TCP    192.168.0.19:50108     ec2-54-203-112-76:https  ESTABLISHED
+  TCP    192.168.0.19:50114     lax31s12-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50116     184.183.131.209:https  ESTABLISHED
+  TCP    192.168.0.19:50117     184.183.131.81:https   ESTABLISHED
+  TCP    192.168.0.19:50118     xx-fbcdn-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50119     edge-star-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50120     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.0.19:50123     52.114.133.61:https    TIME_WAIT
+  TCP    192.168.0.19:50125     occ:https              ESTABLISHED
+  TCP    192.168.0.19:50126     occ:https              ESTABLISHED
+  TCP    192.168.0.19:50127     occ:https              ESTABLISHED
+  TCP    192.168.0.19:50128     ipv4-c011-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50129     ipv4-c011-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50130     ec2-54-213-216-216:https  ESTABLISHED
+  TCP    192.168.0.19:50134     ec2-52-40-134-57:https  ESTABLISHED
+  TCP    192.168.0.19:50135     ipv4-c057-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50136     ipv4-c045-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50137     ipv4-c045-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50138     ipv4-c057-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50139     ipv4-c011-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50140     ipv4-c011-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50141     ipv4-c011-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50142     ipv4-c011-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50143     ipv4-c057-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50144     ipv4-c057-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50145     ipv4-c058-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50146     ipv4-c042-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50147     ipv4-c034-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50149     ipv4-c042-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50151     ipv4-c042-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50152     ipv4-c041-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50153     ipv4-c041-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50154     ipv4-c041-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50155     ipv4-c041-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50156     ipv4-c060-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50157     ipv4-c060-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50158     ipv4-c060-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50159     ipv4-c060-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50162     ipv4-c023-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50164     ipv4-c011-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50169     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50170     ipv4-c023-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50171     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50172     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50173     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50174     lax17s38-in-f5:https   ESTABLISHED
+  TCP    192.168.0.19:50175     lax31s11-in-f14:https  ESTABLISHED
+  TCP    [::]:135               IvansMSI:0             LISTENING
+  TCP    [::]:445               IvansMSI:0             LISTENING
+  TCP    [::]:3306              IvansMSI:0             LISTENING
+  TCP    [::]:17500             IvansMSI:0             LISTENING
+  TCP    [::]:33060             IvansMSI:0             LISTENING
+  TCP    [::]:49664             IvansMSI:0             LISTENING
+  TCP    [::]:49665             IvansMSI:0             LISTENING
+  TCP    [::]:49666             IvansMSI:0             LISTENING
+  TCP    [::]:49667             IvansMSI:0             LISTENING
+  TCP    [::]:49668             IvansMSI:0             LISTENING
+  TCP    [::]:49669             IvansMSI:0             LISTENING
+  TCP    [::]:49672             IvansMSI:0             LISTENING
+  TCP    [::1]:49833            IvansMSI:0             LISTENING
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:17500          *:*                    
+  UDP    0.0.0.0:49668          *:*                    
+  UDP    0.0.0.0:49817          *:*                    
+  UDP    0.0.0.0:49818          *:*                    
+  UDP    0.0.0.0:51779          *:*                    
+  UDP    0.0.0.0:56055          *:*                    
+  UDP    0.0.0.0:56394          *:*                    
+  UDP    0.0.0.0:57214          *:*                    
+  UDP    0.0.0.0:60730          *:*                    
+  UDP    0.0.0.0:62917          *:*                    
+  UDP    0.0.0.0:62919          *:*                    
+  UDP    0.0.0.0:62920          *:*                    
+  UDP    0.0.0.0:63211          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:10020        *:*                    
+  UDP    127.0.0.1:44301        *:*                    
+  UDP    127.0.0.1:49670        *:*                    
+  UDP    127.0.0.1:49671        *:*                    
+  UDP    127.0.0.1:49672        *:*                    
+  UDP    127.0.0.1:59880        *:*                    
+  UDP    127.0.0.1:61189        *:*                    
+  UDP    192.168.0.19:137       *:*                    
+  UDP    192.168.0.19:138       *:*                    
+  UDP    192.168.0.19:1900      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:59879     *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:49669             *:*                    
+  UDP    [::]:51780             *:*                    
+  UDP    [::]:60731             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:59878            *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:1900  *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:59877  *:*                    
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:445            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:3306           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:5040           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:17500          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:33060          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49664          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49665          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49666          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49667          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49668          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49669          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49672          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:843          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:49670         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:49671         ESTABLISHED
+  TCP    127.0.0.1:17600        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:49236        IvansMSI:49237         ESTABLISHED
+  TCP    127.0.0.1:49237        IvansMSI:49236         ESTABLISHED
+  TCP    127.0.0.1:49670        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49671        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49673        IvansMSI:49674         ESTABLISHED
+  TCP    127.0.0.1:49674        IvansMSI:49673         ESTABLISHED
+  TCP    127.0.0.1:49962        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:50002        IvansMSI:50003         ESTABLISHED
+  TCP    127.0.0.1:50003        IvansMSI:50002         ESTABLISHED
+  TCP    127.0.0.1:50378        IvansMSI:65001         ESTABLISHED
+  TCP    127.0.0.1:65001        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:65001        IvansMSI:50378         ESTABLISHED
+  TCP    192.168.0.19:139       IvansMSI:0             LISTENING
+  TCP    192.168.0.19:49246     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.0.19:49250     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49253     ec2-52-40-5-175:https  ESTABLISHED
+  TCP    192.168.0.19:49290     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49585     ec2-34-216-90-102:https  ESTABLISHED
+  TCP    192.168.0.19:49621     74.125.137.188:5228    ESTABLISHED
+  TCP    192.168.0.19:49625     lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.19:49864     52.226.111.32:https    ESTABLISHED
+  TCP    192.168.0.19:50021     13.91.194.79:https     CLOSE_WAIT
+  TCP    192.168.0.19:50098     ec2-44-237-234-25:https  ESTABLISHED
+  TCP    192.168.0.19:50114     lax31s12-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50119     edge-star-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50120     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.0.19:50130     ec2-54-213-216-216:https  ESTABLISHED
+  TCP    192.168.0.19:50134     ec2-52-40-134-57:https  ESTABLISHED
+  TCP    192.168.0.19:50169     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50170     ipv4-c023-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50171     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50173     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50174     lax17s38-in-f5:https   ESTABLISHED
+  TCP    192.168.0.19:50175     lax31s11-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50176     lax28s10-in-f202:https  TIME_WAIT
+  TCP    192.168.0.19:50177     lax28s10-in-f202:https  TIME_WAIT
+  TCP    192.168.0.19:50178     52.114.159.32:https    ESTABLISHED
+  TCP    192.168.0.19:50179     ec2-34-225-131-69:https  ESTABLISHED
+  TCP    192.168.0.19:50183     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.0.19:50184     lax31s12-in-f3:https   ESTABLISHED
+  TCP    [::]:135               IvansMSI:0             LISTENING
+  TCP    [::]:445               IvansMSI:0             LISTENING
+  TCP    [::]:3306              IvansMSI:0             LISTENING
+  TCP    [::]:17500             IvansMSI:0             LISTENING
+  TCP    [::]:33060             IvansMSI:0             LISTENING
+  TCP    [::]:49664             IvansMSI:0             LISTENING
+  TCP    [::]:49665             IvansMSI:0             LISTENING
+  TCP    [::]:49666             IvansMSI:0             LISTENING
+  TCP    [::]:49667             IvansMSI:0             LISTENING
+  TCP    [::]:49668             IvansMSI:0             LISTENING
+  TCP    [::]:49669             IvansMSI:0             LISTENING
+  TCP    [::]:49672             IvansMSI:0             LISTENING
+  TCP    [::1]:49833            IvansMSI:0             LISTENING
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:17500          *:*                    
+  UDP    0.0.0.0:49668          *:*                    
+  UDP    0.0.0.0:51758          *:*                    
+  UDP    0.0.0.0:51779          *:*                    
+  UDP    0.0.0.0:56394          *:*                    
+  UDP    0.0.0.0:60730          *:*                    
+  UDP    0.0.0.0:63211          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:10020        *:*                    
+  UDP    127.0.0.1:44301        *:*                    
+  UDP    127.0.0.1:49670        *:*                    
+  UDP    127.0.0.1:49671        *:*                    
+  UDP    127.0.0.1:49672        *:*                    
+  UDP    127.0.0.1:59880        *:*                    
+  UDP    127.0.0.1:61189        *:*                    
+  UDP    192.168.0.19:137       *:*                    
+  UDP    192.168.0.19:138       *:*                    
+  UDP    192.168.0.19:1900      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:59879     *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:49669             *:*                    
+  UDP    [::]:51780             *:*                    
+  UDP    [::]:60731             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:59878            *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:1900  *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:59877  *:*                    
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:445            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:3306           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:5040           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:17500          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:33060          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49664          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49665          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49666          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49667          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49668          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49669          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49672          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:843          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:49670         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:49671         ESTABLISHED
+  TCP    127.0.0.1:17600        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:49236        IvansMSI:49237         ESTABLISHED
+  TCP    127.0.0.1:49237        IvansMSI:49236         ESTABLISHED
+  TCP    127.0.0.1:49670        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49671        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49673        IvansMSI:49674         ESTABLISHED
+  TCP    127.0.0.1:49674        IvansMSI:49673         ESTABLISHED
+  TCP    127.0.0.1:49962        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:50002        IvansMSI:50003         ESTABLISHED
+  TCP    127.0.0.1:50003        IvansMSI:50002         ESTABLISHED
+  TCP    127.0.0.1:50378        IvansMSI:65001         ESTABLISHED
+  TCP    127.0.0.1:65001        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:65001        IvansMSI:50378         ESTABLISHED
+  TCP    192.168.0.19:139       IvansMSI:0             LISTENING
+  TCP    192.168.0.19:49246     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.0.19:49250     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49253     ec2-52-40-5-175:https  ESTABLISHED
+  TCP    192.168.0.19:49290     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49585     ec2-34-216-90-102:https  ESTABLISHED
+  TCP    192.168.0.19:49621     74.125.137.188:5228    ESTABLISHED
+  TCP    192.168.0.19:49625     lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.19:49864     52.226.111.32:https    ESTABLISHED
+  TCP    192.168.0.19:50021     13.91.194.79:https     CLOSE_WAIT
+  TCP    192.168.0.19:50098     ec2-44-237-234-25:https  ESTABLISHED
+  TCP    192.168.0.19:50119     edge-star-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50120     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.0.19:50130     ec2-54-213-216-216:https  ESTABLISHED
+  TCP    192.168.0.19:50134     ec2-52-40-134-57:https  ESTABLISHED
+  TCP    192.168.0.19:50169     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50170     ipv4-c023-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50173     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50174     lax17s38-in-f5:https   ESTABLISHED
+  TCP    192.168.0.19:50175     lax31s11-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50176     lax28s10-in-f202:https  TIME_WAIT
+  TCP    192.168.0.19:50177     lax28s10-in-f202:https  TIME_WAIT
+  TCP    192.168.0.19:50178     52.114.159.32:https    TIME_WAIT
+  TCP    192.168.0.19:50183     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.0.19:50184     lax31s12-in-f3:https   TIME_WAIT
+  TCP    192.168.0.19:50185     lax31s14-in-f14:https  ESTABLISHED
+  TCP    192.168.0.19:50186     lax31s14-in-f14:https  ESTABLISHED
+  TCP    192.168.0.19:50187     c8:https               ESTABLISHED
+  TCP    192.168.0.19:50188     48:https               ESTABLISHED
+  TCP    192.168.0.19:50189     server-13-224-54-33:https  ESTABLISHED
+  TCP    192.168.0.19:50190     server-13-224-54-33:https  ESTABLISHED
+  TCP    192.168.0.19:50191     lax17s44-in-f10:https  ESTABLISHED
+  TCP    192.168.0.19:50192     199.232.154.132:https  ESTABLISHED
+  TCP    192.168.0.19:50193     server-13-33-25-123:https  ESTABLISHED
+  TCP    192.168.0.19:50194     cf:https               ESTABLISHED
+  TCP    192.168.0.19:50195     198-58-75-28:https     ESTABLISHED
+  TCP    192.168.0.19:50197     ec2-3-140-116-15:https  ESTABLISHED
+  TCP    192.168.0.19:50198     lax31s11-in-f3:https   ESTABLISHED
+  TCP    192.168.0.19:50199     server-13-33-69-8:https  ESTABLISHED
+  TCP    192.168.0.19:50200     lax28s01-in-f168:https  ESTABLISHED
+  TCP    192.168.0.19:50201     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50202     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50203     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50204     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50205     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50207     a104-80-112-233:https  ESTABLISHED
+  TCP    192.168.0.19:50210     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50211     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50212     a104-80-112-233:https  ESTABLISHED
+  TCP    [::]:135               IvansMSI:0             LISTENING
+  TCP    [::]:445               IvansMSI:0             LISTENING
+  TCP    [::]:3306              IvansMSI:0             LISTENING
+  TCP    [::]:17500             IvansMSI:0             LISTENING
+  TCP    [::]:33060             IvansMSI:0             LISTENING
+  TCP    [::]:49664             IvansMSI:0             LISTENING
+  TCP    [::]:49665             IvansMSI:0             LISTENING
+  TCP    [::]:49666             IvansMSI:0             LISTENING
+  TCP    [::]:49667             IvansMSI:0             LISTENING
+  TCP    [::]:49668             IvansMSI:0             LISTENING
+  TCP    [::]:49669             IvansMSI:0             LISTENING
+  TCP    [::]:49672             IvansMSI:0             LISTENING
+  TCP    [::1]:49833            IvansMSI:0             LISTENING
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:17500          *:*                    
+  UDP    0.0.0.0:49668          *:*                    
+  UDP    0.0.0.0:51779          *:*                    
+  UDP    0.0.0.0:53228          *:*                    
+  UDP    0.0.0.0:55307          *:*                    
+  UDP    0.0.0.0:55990          *:*                    
+  UDP    0.0.0.0:56380          *:*                    
+  UDP    0.0.0.0:56394          *:*                    
+  UDP    0.0.0.0:60730          *:*                    
+  UDP    0.0.0.0:62251          *:*                    
+  UDP    0.0.0.0:62253          *:*                    
+  UDP    0.0.0.0:63211          *:*                    
+  UDP    0.0.0.0:64985          *:*                    
+  UDP    0.0.0.0:64986          *:*                    
+  UDP    0.0.0.0:64987          *:*                    
+  UDP    0.0.0.0:64988          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:10020        *:*                    
+  UDP    127.0.0.1:44301        *:*                    
+  UDP    127.0.0.1:49670        *:*                    
+  UDP    127.0.0.1:49671        *:*                    
+  UDP    127.0.0.1:49672        *:*                    
+  UDP    127.0.0.1:59880        *:*                    
+  UDP    127.0.0.1:61189        *:*                    
+  UDP    192.168.0.19:137       *:*                    
+  UDP    192.168.0.19:138       *:*                    
+  UDP    192.168.0.19:1900      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:59879     *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:49669             *:*                    
+  UDP    [::]:51780             *:*                    
+  UDP    [::]:56380             *:*                    
+  UDP    [::]:60731             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:59878            *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:1900  *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:59877  *:*                    
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:445            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:3306           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:5040           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:17500          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:33060          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49664          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49665          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49666          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49667          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49668          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49669          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49672          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:843          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:49670         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:49671         ESTABLISHED
+  TCP    127.0.0.1:17600        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:49236        IvansMSI:49237         ESTABLISHED
+  TCP    127.0.0.1:49237        IvansMSI:49236         ESTABLISHED
+  TCP    127.0.0.1:49670        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49671        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49673        IvansMSI:49674         ESTABLISHED
+  TCP    127.0.0.1:49674        IvansMSI:49673         ESTABLISHED
+  TCP    127.0.0.1:49962        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:50002        IvansMSI:50003         ESTABLISHED
+  TCP    127.0.0.1:50003        IvansMSI:50002         ESTABLISHED
+  TCP    127.0.0.1:50378        IvansMSI:65001         ESTABLISHED
+  TCP    127.0.0.1:65001        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:65001        IvansMSI:50378         ESTABLISHED
+  TCP    192.168.0.19:139       IvansMSI:0             LISTENING
+  TCP    192.168.0.19:49246     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.0.19:49250     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49253     ec2-52-40-5-175:https  ESTABLISHED
+  TCP    192.168.0.19:49290     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49621     74.125.137.188:5228    ESTABLISHED
+  TCP    192.168.0.19:49625     lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.19:49864     52.226.111.32:https    ESTABLISHED
+  TCP    192.168.0.19:50021     13.91.194.79:https     CLOSE_WAIT
+  TCP    192.168.0.19:50098     ec2-44-237-234-25:https  ESTABLISHED
+  TCP    192.168.0.19:50119     edge-star-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50120     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.0.19:50130     ec2-54-213-216-216:https  ESTABLISHED
+  TCP    192.168.0.19:50134     ec2-52-40-134-57:https  ESTABLISHED
+  TCP    192.168.0.19:50169     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50170     ipv4-c023-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50173     ipv4-c001-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50174     lax17s38-in-f5:https   ESTABLISHED
+  TCP    192.168.0.19:50178     52.114.159.32:https    TIME_WAIT
+  TCP    192.168.0.19:50183     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.0.19:50184     lax31s12-in-f3:https   TIME_WAIT
+  TCP    192.168.0.19:50185     lax31s14-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50186     lax31s14-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50187     c8:https               ESTABLISHED
+  TCP    192.168.0.19:50188     48:https               ESTABLISHED
+  TCP    192.168.0.19:50189     server-13-224-54-33:https  ESTABLISHED
+  TCP    192.168.0.19:50190     server-13-224-54-33:https  ESTABLISHED
+  TCP    192.168.0.19:50191     lax17s44-in-f10:https  ESTABLISHED
+  TCP    192.168.0.19:50192     199.232.154.132:https  ESTABLISHED
+  TCP    192.168.0.19:50193     server-13-33-25-123:https  ESTABLISHED
+  TCP    192.168.0.19:50194     cf:https               ESTABLISHED
+  TCP    192.168.0.19:50195     198-58-75-28:https     ESTABLISHED
+  TCP    192.168.0.19:50197     ec2-3-140-116-15:https  ESTABLISHED
+  TCP    192.168.0.19:50198     lax31s11-in-f3:https   TIME_WAIT
+  TCP    192.168.0.19:50199     server-13-33-69-8:https  ESTABLISHED
+  TCP    192.168.0.19:50200     lax28s01-in-f168:https  TIME_WAIT
+  TCP    192.168.0.19:50201     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50202     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50203     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50204     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50205     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50210     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50211     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50214     13.107.42.14:https     ESTABLISHED
+  TCP    192.168.0.19:50218     152.199.24.163:https   ESTABLISHED
+  TCP    192.168.0.19:50221     152.199.24.163:https   ESTABLISHED
+  TCP    192.168.0.19:50225     152.199.24.163:https   ESTABLISHED
+  TCP    192.168.0.19:50226     152.199.5.152:https    ESTABLISHED
+  TCP    192.168.0.19:50227     151.101.194.217:https  ESTABLISHED
+  TCP    192.168.0.19:50228     46:https               ESTABLISHED
+  TCP    192.168.0.19:50230     198-58-75-28:https     ESTABLISHED
+  TCP    192.168.0.19:50233     4e:https               ESTABLISHED
+  TCP    192.168.0.19:50237     52.167.253.237:https   ESTABLISHED
+  TCP    192.168.0.19:50238     lax31s14-in-f14:https  ESTABLISHED
+  TCP    192.168.0.19:50239     4e:https               ESTABLISHED
+  TCP    192.168.0.19:50240     lax28s10-in-f202:https  ESTABLISHED
+  TCP    192.168.0.19:50242     lax02s23-in-f10:https  ESTABLISHED
+  TCP    192.168.0.19:50243     server-13-33-69-89:https  ESTABLISHED
+  TCP    192.168.0.19:50244     cc:https               ESTABLISHED
+  TCP    192.168.0.19:50245     lax02s23-in-f198:https  ESTABLISHED
+  TCP    192.168.0.19:50246     lax31s19-in-f14:https  ESTABLISHED
+  TCP    192.168.0.19:50247     ec2-52-42-39-110:https  ESTABLISHED
+  TCP    [::]:135               IvansMSI:0             LISTENING
+  TCP    [::]:445               IvansMSI:0             LISTENING
+  TCP    [::]:3306              IvansMSI:0             LISTENING
+  TCP    [::]:17500             IvansMSI:0             LISTENING
+  TCP    [::]:33060             IvansMSI:0             LISTENING
+  TCP    [::]:49664             IvansMSI:0             LISTENING
+  TCP    [::]:49665             IvansMSI:0             LISTENING
+  TCP    [::]:49666             IvansMSI:0             LISTENING
+  TCP    [::]:49667             IvansMSI:0             LISTENING
+  TCP    [::]:49668             IvansMSI:0             LISTENING
+  TCP    [::]:49669             IvansMSI:0             LISTENING
+  TCP    [::]:49672             IvansMSI:0             LISTENING
+  TCP    [::1]:49833            IvansMSI:0             LISTENING
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:17500          *:*                    
+  UDP    0.0.0.0:49652          *:*                    
+  UDP    0.0.0.0:49668          *:*                    
+  UDP    0.0.0.0:49698          *:*                    
+  UDP    0.0.0.0:50091          *:*                    
+  UDP    0.0.0.0:51779          *:*                    
+  UDP    0.0.0.0:52133          *:*                    
+  UDP    0.0.0.0:54707          *:*                    
+  UDP    0.0.0.0:56394          *:*                    
+  UDP    0.0.0.0:56949          *:*                    
+  UDP    0.0.0.0:57653          *:*                    
+  UDP    0.0.0.0:58803          *:*                    
+  UDP    0.0.0.0:60730          *:*                    
+  UDP    0.0.0.0:61272          *:*                    
+  UDP    0.0.0.0:63211          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:10020        *:*                    
+  UDP    127.0.0.1:44301        *:*                    
+  UDP    127.0.0.1:49670        *:*                    
+  UDP    127.0.0.1:49671        *:*                    
+  UDP    127.0.0.1:49672        *:*                    
+  UDP    127.0.0.1:53376        *:*                    
+  UDP    127.0.0.1:53377        *:*                    
+  UDP    127.0.0.1:59880        *:*                    
+  UDP    127.0.0.1:61189        *:*                    
+  UDP    192.168.0.19:137       *:*                    
+  UDP    192.168.0.19:138       *:*                    
+  UDP    192.168.0.19:1900      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:5353      *:*                    
+  UDP    192.168.0.19:59879     *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:49669             *:*                    
+  UDP    [::]:51780             *:*                    
+  UDP    [::]:60731             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:59878            *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:1900  *:*                    
+  UDP    [fe80::5881:80f2:6ac5:8121%12]:59877  *:*                    
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:445            IvansMSI:0             LISTENING
+  TCP    0.0.0.0:3306           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:5040           IvansMSI:0             LISTENING
+  TCP    0.0.0.0:17500          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:33060          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49664          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49665          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49666          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49667          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49668          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49669          IvansMSI:0             LISTENING
+  TCP    0.0.0.0:49672          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:843          IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:0             LISTENING
+  TCP    127.0.0.1:5354         IvansMSI:49670         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:49671         ESTABLISHED
+  TCP    127.0.0.1:5354         IvansMSI:50314         ESTABLISHED
+  TCP    127.0.0.1:17600        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:27015        IvansMSI:50283         ESTABLISHED
+  TCP    127.0.0.1:27015        IvansMSI:50321         ESTABLISHED
+  TCP    127.0.0.1:27015        IvansMSI:50322         ESTABLISHED
+  TCP    127.0.0.1:49236        IvansMSI:49237         ESTABLISHED
+  TCP    127.0.0.1:49237        IvansMSI:49236         ESTABLISHED
+  TCP    127.0.0.1:49670        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49671        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:49673        IvansMSI:49674         ESTABLISHED
+  TCP    127.0.0.1:49674        IvansMSI:49673         ESTABLISHED
+  TCP    127.0.0.1:49962        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:50002        IvansMSI:50003         ESTABLISHED
+  TCP    127.0.0.1:50003        IvansMSI:50002         ESTABLISHED
+  TCP    127.0.0.1:50283        IvansMSI:27015         ESTABLISHED
+  TCP    127.0.0.1:50284        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50285        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50286        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50287        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50288        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50289        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50290        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50291        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50292        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50293        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50294        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50295        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50296        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50297        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50298        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50299        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50300        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50301        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50302        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50303        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50304        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50305        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50306        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50307        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50308        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50309        IvansMSI:5354          TIME_WAIT
+  TCP    127.0.0.1:50314        IvansMSI:5354          ESTABLISHED
+  TCP    127.0.0.1:50316        IvansMSI:50315         TIME_WAIT
+  TCP    127.0.0.1:50318        IvansMSI:50317         TIME_WAIT
+  TCP    127.0.0.1:50320        IvansMSI:50319         TIME_WAIT
+  TCP    127.0.0.1:50321        IvansMSI:27015         ESTABLISHED
+  TCP    127.0.0.1:50322        IvansMSI:27015         ESTABLISHED
+  TCP    127.0.0.1:50324        IvansMSI:50323         TIME_WAIT
+  TCP    127.0.0.1:50349        IvansMSI:50348         TIME_WAIT
+  TCP    127.0.0.1:50351        IvansMSI:50350         TIME_WAIT
+  TCP    127.0.0.1:50353        IvansMSI:50352         TIME_WAIT
+  TCP    127.0.0.1:50355        IvansMSI:50354         TIME_WAIT
+  TCP    127.0.0.1:50357        IvansMSI:50356         TIME_WAIT
+  TCP    127.0.0.1:50378        IvansMSI:65001         ESTABLISHED
+  TCP    127.0.0.1:65001        IvansMSI:0             LISTENING
+  TCP    127.0.0.1:65001        IvansMSI:50378         ESTABLISHED
+  TCP    192.168.0.19:139       IvansMSI:0             LISTENING
+  TCP    192.168.0.19:49246     52.230.222.68:https    ESTABLISHED
+  TCP    192.168.0.19:49250     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49253     ec2-52-40-5-175:https  ESTABLISHED
+  TCP    192.168.0.19:49290     stackoverflow:https    ESTABLISHED
+  TCP    192.168.0.19:49621     74.125.137.188:5228    ESTABLISHED
+  TCP    192.168.0.19:49625     lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    192.168.0.19:49864     52.226.111.32:https    ESTABLISHED
+  TCP    192.168.0.19:50021     13.91.194.79:https     CLOSE_WAIT
+  TCP    192.168.0.19:50098     ec2-44-237-234-25:https  ESTABLISHED
+  TCP    192.168.0.19:50119     edge-star-shv-01-lax3:https  ESTABLISHED
+  TCP    192.168.0.19:50120     162.125.35.134:https   ESTABLISHED
+  TCP    192.168.0.19:50130     ec2-54-213-216-216:https  ESTABLISHED
+  TCP    192.168.0.19:50134     ec2-52-40-134-57:https  TIME_WAIT
+  TCP    192.168.0.19:50174     lax17s38-in-f5:https   ESTABLISHED
+  TCP    192.168.0.19:50183     162.125.35.136:https   ESTABLISHED
+  TCP    192.168.0.19:50187     c8:https               ESTABLISHED
+  TCP    192.168.0.19:50188     48:https               ESTABLISHED
+  TCP    192.168.0.19:50189     server-13-224-54-33:https  ESTABLISHED
+  TCP    192.168.0.19:50190     server-13-224-54-33:https  ESTABLISHED
+  TCP    192.168.0.19:50191     lax17s44-in-f10:https  ESTABLISHED
+  TCP    192.168.0.19:50192     199.232.154.132:https  ESTABLISHED
+  TCP    192.168.0.19:50193     server-13-33-25-123:https  ESTABLISHED
+  TCP    192.168.0.19:50194     cf:https               ESTABLISHED
+  TCP    192.168.0.19:50195     198-58-75-28:https     ESTABLISHED
+  TCP    192.168.0.19:50199     server-13-33-69-8:https  ESTABLISHED
+  TCP    192.168.0.19:50201     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50202     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50203     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50204     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50205     209.177.165.18:https   ESTABLISHED
+  TCP    192.168.0.19:50210     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50211     209.177.165.20:https   ESTABLISHED
+  TCP    192.168.0.19:50227     151.101.194.217:https  ESTABLISHED
+  TCP    192.168.0.19:50228     46:https               ESTABLISHED
+  TCP    192.168.0.19:50230     198-58-75-28:https     ESTABLISHED
+  TCP    192.168.0.19:50233     4e:https               ESTABLISHED
+  TCP    192.168.0.19:50238     lax31s14-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50239     4e:https               ESTABLISHED
+  TCP    192.168.0.19:50240     lax28s10-in-f202:https  TIME_WAIT
+  TCP    192.168.0.19:50242     lax02s23-in-f10:https  TIME_WAIT
+  TCP    192.168.0.19:50243     server-13-33-69-89:https  ESTABLISHED
+  TCP    192.168.0.19:50244     cc:https               ESTABLISHED
+  TCP    192.168.0.19:50245     lax02s23-in-f198:https  ESTABLISHED
+  TCP    192.168.0.19:50246     lax31s19-in-f14:https  TIME_WAIT
+  TCP    192.168.0.19:50247     ec2-52-42-39-110:https  ESTABLISHED
+  TCP    192.168.0.19:50260     ipv4-c042-phx001-ix:https  ESTABLISHED
+  TCP    192.168.0.19:50266     104.244.42.193:https   ESTABLISHED
+  TCP    192.168.0.19:50267     152.199.24.185:https   ESTABLISHED
+  TCP    192.168.0.19:50268     152.199.24.185:https   ESTABLISHED
+  TCP    192.168.0.19:50269     104.244.42.130:https   ESTABLISHED
+  TCP    192.168.0.19:50270     199.232.152.159:https  ESTABLISHED

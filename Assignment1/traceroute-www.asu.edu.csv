@@ -1,0 +1,8 @@
+#, Country, Town, Lat, Lon, IP, Hostname, Latency (ms), DNS Lookup (ms), Distance to previous node (km), 
+1, United States, Tucson, 32.2132, -110.8873, 192.168.0.1, (None), 16, 15, 0, 
+2, United States, Tucson, 32.2132, -110.8873, 10.32.220.1, (None), 31, 18, 0, 
+3, United States, Tucson, 32.2132, -110.8873, 100.127.77.48, (None), 16, 34, 0, 
+4, United States, Tucson, 32.2132, -110.8873, 100.120.100.36, (None), 31, 21, 0, 
+5, United States, Macon, 32.7288, -83.6865, 68.1.2.29, mtc3dsrj01-ge708.103.rd.ok.cox.net, 79, 67, 2548, 
+6, United States, Atlanta, 33.749, -84.388, 108.162.235.251, (None), 79, 197, 131, 
+7, United States, (Unknown), 37.751, -97.822, 104.16.51.14, (None), 74, 30, 1291, 
