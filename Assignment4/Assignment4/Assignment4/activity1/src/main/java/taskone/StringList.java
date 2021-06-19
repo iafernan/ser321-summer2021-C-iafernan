@@ -25,4 +25,6 @@ class StringList {
     public String toString() {
         return strings.toString();
     }
+
+    public String get(int i) { return strings.get(i);}
 }
