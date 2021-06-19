@@ -80,6 +80,11 @@ class Performer {
                             break;
                         case (2):
                             returnMessage = pop();
+                        case (0):
+                            System.out.println("close the resources of client ");
+                            out.close();
+                            in.close();
+                            
                         default:
                             returnMessage = error("Invalid selection: " + choice 
                                     + " is not an option");
