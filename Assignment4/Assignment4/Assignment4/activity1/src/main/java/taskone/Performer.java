@@ -85,7 +85,7 @@ class Performer {
                             System.out.println("close the resources of client ");
                             out.close();
                             in.close();
-
+                            break;
                         default:
                             returnMessage = error("Invalid selection: " + choice 
                                     + " is not an option");
