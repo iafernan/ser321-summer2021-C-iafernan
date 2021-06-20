@@ -100,7 +100,7 @@ class Performer {
             state.swapping(i, j);
             json.put("data", state.toString());
 
-        } else{
+        } else if(!state.contains(state.get(i)) || !state.contains(state.get(j))){
             json.put("data", "Selections Invalid.");
 
         }
