@@ -143,7 +143,8 @@ class Performer {
                             returnMessage = count();
                             break;
                         case (5):
-                            String i = (String) message.get("data");
+                            int k = (int) message.get("data");
+                            String i = String.valueOf(k);
                             String[] numbers = i.split(" ");
                             int j;
                             int p;
