@@ -96,13 +96,12 @@ class Performer {
         json.put("datatype", 5);
         json.put("type", "switching");
 
-        if (state.contains(state.get(i)) && state.contains(state.get(j))) {
+        if ( i >= state.size() || j >= state.size()) {
+            json.put("data", "Selection(s) Invalid.");
+
+        } else {
             state.swapping(i, j);
             json.put("data", state.toString());
-
-        } else if(!state.contains(state.get(i)) || !state.contains(state.get(j))){
-            json.put("data", "Selections Invalid.");
-
         }
         return json;
 
