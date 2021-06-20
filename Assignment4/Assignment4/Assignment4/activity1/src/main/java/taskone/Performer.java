@@ -41,18 +41,49 @@ class Performer {
     }
 
     public JSONObject pop(){
+        String popped;
+        JSONObject json = new JSONObject();
+
         if (this.state.size() == 0){
-            JSONObject json = new JSONObject();
-            json = null;
-            return null;
-        } else {
-            JSONObject json = new JSONObject();
             json.put("datatype", 2);
             json.put("type", "pop");
-            state.get(state.size() - 1);
-            json.put("data", state.toString());
+            popped = "NULL";
+            json.put("data", popped);
+            return json;
+        } else {
+            json.put("datatype", 2);
+            json.put("type", "pop");
+            popped = state.get(state.size() - 1);
+            json.put("data", popped);
             return json;
         }
+    }
+
+    public JSONObject display(){
+            JSONObject json = new JSONObject();
+            json.put("datatype", 3);
+            json.put("type", "display");
+            json.put("data", state.toString());
+            return json;
+
+    }
+
+    public JSONObject count(){
+        JSONObject json = new JSONObject();
+        json.put("datatype", 3);
+        json.put("type", "display");
+        json.put("data", state.toString());
+        return json;
+
+    }
+
+    public JSONObject switching(int i, int j){
+        JSONObject json = new JSONObject();
+        json.put("datatype", 3);
+        json.put("type", "display");
+        json.put("data", state.toString());
+        return json;
+
     }
 
     public static JSONObject error(String err) {
@@ -82,6 +113,17 @@ class Performer {
                             break;
                         case (2):
                             returnMessage = pop();
+                            break;
+                        case (3):
+                            returnMessage = display();
+                            break;
+                        case (4):
+                            returnMessage = count();
+                            break;
+                        case (5):
+                            int i = (int) message.get("data");
+                            int j = (int) message.get("data");
+                            returnMessage = switching(i, j);
                             break;
                         case (0):
                             System.out.println("close the resources of client ");
