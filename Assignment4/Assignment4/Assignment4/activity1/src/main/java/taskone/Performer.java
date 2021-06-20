@@ -42,6 +42,8 @@ class Performer {
 
     public JSONObject pop(){
         if (this.state.size() == 0){
+            JSONObject json = new JSONObject();
+            json = null;
             return null;
         } else {
             JSONObject json = new JSONObject();
