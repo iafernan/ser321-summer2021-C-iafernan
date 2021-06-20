@@ -61,20 +61,30 @@ class Performer {
         }
     }
 
-    public JSONObject display(){
-            JSONObject json = new JSONObject();
+    public JSONObject display() {
+        JSONObject json = new JSONObject();
+
+        if (this.state.size() == 0) {
+            json.put("datatype", 2);
+            json.put("type", "pop");
+            json.put("data", "NULL");
+            return json;
+        } else {
             json.put("datatype", 3);
             json.put("type", "display");
             json.put("data", state.toString());
             return json;
 
+        }
     }
 
     public JSONObject count(){
+        String counter;
+        counter = Integer.toString(count);
         JSONObject json = new JSONObject();
         json.put("datatype", 4);
         json.put("type", "count");
-        json.put("data", count);
+        json.put("data", counter);
         return json;
 
     }
