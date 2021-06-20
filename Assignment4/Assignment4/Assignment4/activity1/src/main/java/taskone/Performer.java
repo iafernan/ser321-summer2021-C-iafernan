@@ -143,9 +143,9 @@ class Performer {
                             returnMessage = count();
                             break;
                         case (5):
-                            int k = (int) message.get("data");
-                            String i = String.valueOf(k);
-                            String[] numbers = i.split(" ");
+                            String k = (String) message.get("data");
+
+                            String[] numbers = k.split(" ", 2);
                             int j;
                             int p;
 
