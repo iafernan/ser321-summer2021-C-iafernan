@@ -91,7 +91,7 @@ class Performer {
     }
 
     public JSONObject switching(int i, int j){
-       
+
         JSONObject json = new JSONObject();
         json.put("datatype", 5);
         json.put("type", "switching");
@@ -143,9 +143,15 @@ class Performer {
                             returnMessage = count();
                             break;
                         case (5):
-                            int i = (int) message.get("data");
-                            int j = (int) message.get("data");
-                            returnMessage = switching(i, j);
+                            String i = (String) message.get("data");
+                            String[] numbers = i.split(" ");
+                            int j;
+                            int p;
+
+                            j = Integer.parseInt(numbers[0]);
+                            p = Integer.parseInt(numbers[1]);
+
+                            returnMessage = switching(j, p);
                             break;
                         case (0):
                             System.out.println("Close the resources of client ");
