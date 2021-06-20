@@ -156,7 +156,7 @@ public class Client {
             do {
                 System.out.println();
                 System.out.println("Client Menu");
-                System.out.println("Please select a valid option (1-5). 0 to diconnect the client");
+                System.out.println("Please select a valid option (1-5). 0 to disconnect the client");
                 System.out.println("1. add <string> - adds a string to the list and display it");
                 System.out.println("2. pop - remove the top element");
                 System.out.println("3. display - display the list");

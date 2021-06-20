@@ -1,5 +1,6 @@
 package taskone;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -27,4 +28,8 @@ class StringList {
     }
 
     public String get(int i) { return strings.get(i);}
+
+    public void swapping(int i, int j){
+        Collections.swap(strings,i,j);
+    }
 }

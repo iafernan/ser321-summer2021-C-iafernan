@@ -14,6 +14,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import org.json.JSONObject;
 
@@ -90,10 +91,19 @@ class Performer {
     }
 
     public JSONObject switching(int i, int j){
+       
         JSONObject json = new JSONObject();
         json.put("datatype", 5);
         json.put("type", "switching");
-        json.put("data", state.toString());
+
+        if (state.contains(state.get(i)) && state.contains(state.get(j))) {
+            state.swapping(i, j);
+            json.put("data", state.toString());
+
+        } else{
+            json.put("data", "Selections Invalid.");
+
+        }
         return json;
 
     }
@@ -138,7 +148,7 @@ class Performer {
                             returnMessage = switching(i, j);
                             break;
                         case (0):
-                            System.out.println("close the resources of client ");
+                            System.out.println("Close the resources of client ");
                             out.close();
                             in.close();
                             break;
