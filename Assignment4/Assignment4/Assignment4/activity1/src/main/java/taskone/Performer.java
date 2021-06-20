@@ -25,6 +25,7 @@ class Performer {
 
     private StringList state;
     private Socket conn;
+    private int count = 0;
 
     public Performer(Socket sock, StringList strings) {
         this.conn = sock;
@@ -36,6 +37,7 @@ class Performer {
         json.put("datatype", 1);
         json.put("type", "add");
         state.add(str);
+        count ++;
         json.put("data", state.toString());
         return json;
     }
@@ -70,17 +72,17 @@ class Performer {
 
     public JSONObject count(){
         JSONObject json = new JSONObject();
-        json.put("datatype", 3);
-        json.put("type", "display");
-        json.put("data", state.toString());
+        json.put("datatype", 4);
+        json.put("type", "count");
+        json.put("data", count);
         return json;
 
     }
 
     public JSONObject switching(int i, int j){
         JSONObject json = new JSONObject();
-        json.put("datatype", 3);
-        json.put("type", "display");
+        json.put("datatype", 5);
+        json.put("type", "switching");
         json.put("data", state.toString());
         return json;
 
