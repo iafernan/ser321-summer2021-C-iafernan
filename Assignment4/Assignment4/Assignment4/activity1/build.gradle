@@ -66,8 +66,11 @@ task runTask3(type: JavaExec) {
   main = 'taskone.ThreadPoolServer'
   standardInput = System.in
 
-  // run with arguments e.g.: gradle runServer -Pport=9099 -q --console=plain
+  // run with arguments e.g.: gradle runServer -Pport=9099 -Pconnections=25 -q --console=plain
   if (project.hasProperty('port')) {
     args(project.getProperty('port'));
+  }
+  if (project.hasProperty('connections')) {
+    args(project.getProperty('connections'));
   }
 }

@@ -31,7 +31,7 @@ class Clients implements Runnable {
 
     public void run() {
 
-        System.out.println("Hello from client" + id );
+        System.out.println("Hello to client" + id );
         ServerSocket server = null;
         try {
             server = new ServerSocket(port);

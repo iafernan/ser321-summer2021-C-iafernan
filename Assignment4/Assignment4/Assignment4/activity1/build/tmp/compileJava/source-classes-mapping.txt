@@ -13,4 +13,5 @@ taskone/ThreadPoolServer.java
 taskone/Performer.java
  taskone.Performer
 taskone/ThreadedServer.java
+ taskone.Clients
  taskone.ThreadedServer
