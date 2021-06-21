@@ -42,7 +42,7 @@ task arguments {
     }
 }
 
-//gradle runClient -Pport=9099 -Phost='localhost' -Pfile='data.json'
+//
 task runClient(type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath
   description = "Run Client"
