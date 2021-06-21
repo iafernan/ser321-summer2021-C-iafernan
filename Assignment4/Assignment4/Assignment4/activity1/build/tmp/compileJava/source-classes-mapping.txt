@@ -8,5 +8,9 @@ taskone/StringList.java
  taskone.StringList
 taskone/Server.java
  taskone.Server
+taskone/ThreadPoolServer.java
+ taskone.ThreadPoolServer
 taskone/Performer.java
  taskone.Performer
+taskone/ThreadedServer.java
+ taskone.ThreadedServer

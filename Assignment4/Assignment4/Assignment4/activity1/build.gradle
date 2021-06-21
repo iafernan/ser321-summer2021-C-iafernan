@@ -43,7 +43,7 @@ task runClient(type: JavaExec) {
 }
 
 task runTask2(type: JavaExec) {
-  group 'server'
+  group 'server2'
   description 'Creates Server socket waits for messages, various clients'
 
   classpath = sourceSets.main.runtimeClasspath
@@ -58,7 +58,7 @@ task runTask2(type: JavaExec) {
 }
 
 task runTask3(type: JavaExec) {
-  group 'server'
+  group 'server3'
   description 'Creates Server socket waits for messages, various clients'
 
   classpath = sourceSets.main.runtimeClasspath
