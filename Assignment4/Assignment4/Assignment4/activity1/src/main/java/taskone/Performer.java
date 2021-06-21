@@ -66,8 +66,8 @@ class Performer {
         JSONObject json = new JSONObject();
 
         if (this.state.size() == 0) {
-            json.put("datatype", 2);
-            json.put("type", "pop");
+            json.put("datatype", 3);
+            json.put("type", "display");
             json.put("data", "NULL");
             return json;
         } else {
