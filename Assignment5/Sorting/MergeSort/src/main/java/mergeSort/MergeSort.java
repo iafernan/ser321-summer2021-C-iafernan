@@ -72,7 +72,7 @@ public class MergeSort {
     }
     long endTime = System.currentTimeMillis();
     long time = endTime - startTime;
-    System.out.println("Time taken:" + (time) + "milliseconds to sort data size:" + a.length + " " + "elements.");
+    System.out.println("\nTIME TAKEN:" + (time) + "milliseconds to sort data size:" + a.length + " " + "elements.");
   }
 
   public static void main(String[] args) {
