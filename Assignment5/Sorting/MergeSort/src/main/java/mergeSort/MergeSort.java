@@ -52,6 +52,7 @@ public class MergeSort {
   }
   
   public static void Test(int port, String host) {
+    long startTime = System.currentTimeMillis();
     int[] a = { 5, 1, 6, 2, 3, 4, 10,634,34,23,653, 23,2 ,6};
     JSONObject response = NetworkUtils.send(host, port, init(a));
     
@@ -69,6 +70,9 @@ public class MergeSort {
         break;
       }
     }
+    long endTime = System.currentTimeMillis();
+    long time = endTime - startTime;
+    System.out.println("\nTIME TAKEN:" + (time) + "milliseconds to sort data size:" + a.length + " " + "elements.");
   }
 
   public static void main(String[] args) {
