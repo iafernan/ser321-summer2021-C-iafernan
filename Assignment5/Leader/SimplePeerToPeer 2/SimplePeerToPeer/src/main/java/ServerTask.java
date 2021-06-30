@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 import java.io.PrintWriter;
+import java.util.Scanner;
 
 import org.json.*;
 
@@ -36,19 +37,30 @@ public class ServerTask extends Thread {
 		while (true) {
 			try {
 			    JSONObject json = new JSONObject(bufferedReader.readLine());
+				//BufferedReader bufferReader = new BufferedReader(new InputStreamReader(System.in));
 
-			    if (json.getString("type").equals("join")){
-			    	System.out.println("     " + json); // just to show the json
+			    if (json.getString("type").equals("join")) {
+					System.out.println("     " + json); // just to show the json
 
-			    	System.out.println("     " + json.getString("username") + " wants to join the network");
-			    	peer.updateListenToPeers(json.getString("ip") + ":" + json.getInt("port"));
-			    	out.println(("{'type': 'join', 'list': '"+ peer.getPeers() +"'}"));
+					System.out.println("     " + json.getString("username") + " wants to join the network");
+					peer.updateListenToPeers(json.getString("ip") + ":" + json.getInt("port"));
+					out.println(("{'type': 'join', 'list': '" + peer.getPeers() + "'}"));
 
-			    	if (peer.isLeader()){
-			    		peer.pushMessage(json.toString());
-			    	}
-			    	// TODO: should make sure that all peers that the leader knows about also get the info about the new peer joining
-			    	// so they can add that peer to the list
+					if (peer.isLeader()) {
+						peer.pushMessage(json, peer.isLeader());
+					}
+					// TODO: should make sure that all peers that the leader knows about also get the info about the new peer joining
+					// so they can add that peer to the list
+
+				}else if(json.getString("type").equals("joke")){
+					System.out.println("     " + json); // just to show the json
+
+					System.out.println("     " + json.getString("username") + " has sent a joke");
+					peer.updateListenToPeers(json.getString("ip") + ":" + json.getInt("port"));
+					out.println(("{'type': 'joke', 'jokeList': '" + peer.getJokes() + "'}"));
+
+					peer.leaderMessage("     " + json.getString("username") + " has sent a joke");
+
 			    } else {
 			    	System.out.println("[" + json.getString("username")+"]: " + json.getString("message"));
 			    }
