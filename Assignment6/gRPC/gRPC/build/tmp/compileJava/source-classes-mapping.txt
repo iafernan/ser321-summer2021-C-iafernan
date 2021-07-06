@@ -4,10 +4,10 @@ service/JokeSetRes.java
  service.JokeSetRes$Builder
 service/SortRequestOrBuilder.java
  service.SortRequestOrBuilder
-examples/grpcClient/JokeImpl.java
- example.grpcclient.JokeImpl
 service/CalcResponseOrBuilder.java
  service.CalcResponseOrBuilder
+examples/grpcClient/JokeImpl.java
+ examples.grpcClient.JokeImpl
 service/TipsReadResponse.java
  service.TipsReadResponse
  service.TipsReadResponse$1
@@ -15,35 +15,31 @@ service/TipsReadResponse.java
 service/TipsWriteRequestOrBuilder.java
  service.TipsWriteRequestOrBuilder
 examples/grpcClient/Register.java
- example.grpcclient.Register
+ examples.grpcClient.Register
 service/GetServicesReqOrBuilder.java
  service.GetServicesReqOrBuilder
 service/SortResponseOrBuilder.java
  service.SortResponseOrBuilder
 service/EchoProto.java
  service.EchoProto
-service/SortResponse.java
- service.SortResponse
- service.SortResponse$1
- service.SortResponse$Builder
 service/Empty.java
  service.Empty
  service.Empty$1
  service.Empty$Builder
+service/SortResponse.java
+ service.SortResponse
+ service.SortResponse$1
+ service.SortResponse$Builder
 service/ServerListResOrBuilder.java
  service.ServerListResOrBuilder
-service/SingleServerResOrBuilder.java
- service.SingleServerResOrBuilder
 service/TipOrBuilder.java
  service.TipOrBuilder
+service/SingleServerResOrBuilder.java
+ service.SingleServerResOrBuilder
 service/Tip.java
  service.Tip
  service.Tip$1
  service.Tip$Builder
-service/JokeReq.java
- service.JokeReq
- service.JokeReq$1
- service.JokeReq$Builder
 service/CalcGrpc.java
  service.CalcGrpc
  service.CalcGrpc$1
@@ -57,12 +53,16 @@ service/CalcGrpc.java
  service.CalcGrpc$CalcMethodDescriptorSupplier
  service.CalcGrpc$CalcStub
  service.CalcGrpc$MethodHandlers
-service/ServerResponseOrBuilder.java
- service.ServerResponseOrBuilder
+service/JokeReq.java
+ service.JokeReq
+ service.JokeReq$1
+ service.JokeReq$Builder
 service/RegisterReq.java
  service.RegisterReq
  service.RegisterReq$1
  service.RegisterReq$Builder
+service/ServerResponseOrBuilder.java
+ service.ServerResponseOrBuilder
 service/ServerListRes.java
  service.ServerListRes
  service.ServerListRes$1
@@ -92,9 +92,13 @@ service/TipsWriteRequest.java
  service.TipsWriteRequest$1
  service.TipsWriteRequest$Builder
 examples/grpcClient/RegistryAnswerImpl.java
- example.grpcclient.RegistryAnswerImpl
+ examples.grpcClient.RegistryAnswerImpl
 service/FindServersReqOrBuilder.java
  service.FindServersReqOrBuilder
+service/CalcResponse.java
+ service.CalcResponse
+ service.CalcResponse$1
+ service.CalcResponse$Builder
 service/EchoGrpc.java
  service.EchoGrpc
  service.EchoGrpc$1
@@ -112,10 +116,6 @@ service/SingleServerRes.java
  service.SingleServerRes
  service.SingleServerRes$1
  service.SingleServerRes$Builder
-service/CalcResponse.java
- service.CalcResponse
- service.CalcResponse$1
- service.CalcResponse$Builder
 service/ServicesListRes.java
  service.ServicesListRes
  service.ServicesListRes$1
@@ -134,7 +134,7 @@ service/SortGrpc.java
  service.SortGrpc$SortMethodDescriptorSupplier
  service.SortGrpc$SortStub
 examples/grpcClient/EchoImpl.java
- example.grpcclient.EchoImpl
+ examples.grpcClient.EchoImpl
 service/CalcProto.java
  service.CalcProto
 service/JokeSetReqOrBuilder.java
@@ -196,6 +196,10 @@ service/FindServerReq.java
  service.FindServerReq
  service.FindServerReq$1
  service.FindServerReq$Builder
+service/WriteResponse.java
+ service.WriteResponse
+ service.WriteResponse$1
+ service.WriteResponse$Builder
 service/StoryProto.java
  service.StoryProto
 examples/TestProtobuf.java
@@ -237,10 +241,10 @@ service/FindServersReq.java
  service.FindServersReq
  service.FindServersReq$1
  service.FindServersReq$Builder
-service/ServicesListResOrBuilder.java
- service.ServicesListResOrBuilder
 service/CalcRequestOrBuilder.java
  service.CalcRequestOrBuilder
+service/ServicesListResOrBuilder.java
+ service.ServicesListResOrBuilder
 buffers/RequestProtos.java
  buffers.RequestProtos
  buffers.RequestProtos$1
@@ -261,18 +265,18 @@ service/JokeRes.java
  service.JokeRes
  service.JokeRes$1
  service.JokeRes$Builder
+service/ConnectionOrBuilder.java
+ service.ConnectionOrBuilder
 service/ServerResponse.java
  service.ServerResponse
  service.ServerResponse$1
  service.ServerResponse$Builder
-service/ConnectionOrBuilder.java
- service.ConnectionOrBuilder
 service/Connection.java
  service.Connection
  service.Connection$1
  service.Connection$Builder
-examples/grpcClient/EchoClient.java
- example.grpcclient.EchoClient
+examples/TestJson.java
+ test.TestJson
 service/WriteRequestOrBuilder.java
  service.WriteRequestOrBuilder
 service/ClientRequestOrBuilder.java
@@ -286,25 +290,12 @@ service/JokeSetReq.java
 service/Algo.java
  service.Algo
  service.Algo$1
-examples/grpcClient/Node.java
- example.grpcclient.Node
- example.grpcclient.Node$1
 service/CalcRequest.java
  service.CalcRequest
  service.CalcRequest$1
  service.CalcRequest$Builder
 service/TipsReadResponseOrBuilder.java
  service.TipsReadResponseOrBuilder
-service/TipsWriteResponse.java
- service.TipsWriteResponse
- service.TipsWriteResponse$1
- service.TipsWriteResponse$Builder
-service/WriteResponse.java
- service.WriteResponse
- service.WriteResponse$1
- service.WriteResponse$Builder
-examples/TestJson.java
- test.TestJson
 service/JokeGrpc.java
  service.JokeGrpc
  service.JokeGrpc$1
@@ -318,3 +309,16 @@ service/JokeGrpc.java
  service.JokeGrpc$JokeMethodDescriptorSupplier
  service.JokeGrpc$JokeStub
  service.JokeGrpc$MethodHandlers
+service/TipsWriteResponse.java
+ service.TipsWriteResponse
+ service.TipsWriteResponse$1
+ service.TipsWriteResponse$Builder
+examples/grpcClient/CalcImpl.java
+ examples.grpcClient.CalcImpl
+examples/grpcClient/StoryImpl.java
+ examples.grpcClient.StoryImpl
+examples/grpcClient/Node.java
+ examples.grpcClient.Node
+ examples.grpcClient.Node$1
+examples/grpcClient/EchoClient.java
+ examples.grpcClient.EchoClient

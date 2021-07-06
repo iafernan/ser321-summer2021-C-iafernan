@@ -58,8 +58,8 @@ sourceSets {
  def grpcPort = 9002 // port where the json registry runs on
 
  // port and host of a service node
- def servicePort = 8000; // port for the service node
- def serviceHost = 'localhost'; // host for the service node
+ def servicePort = 8000 // port for the service node
+ def serviceHost = "localhost" // host for the service node
  def nodeName = "test" // Name of node to be registered
 
  // for json and protobuf: port where service can be found (getService method)
@@ -67,7 +67,7 @@ sourceSets {
 
  // Method to Echo in client
  def message = "Hello you" // for the echo service in the node
-
+ def auto    = 0  // Automatically run tests.
  
 
 // task reading in the arguments if any given, if not the default from above will be used
@@ -94,10 +94,13 @@ task arguments {
       discoveryPort = project.getProperty("discoveryPort")
     }
     if (project.hasProperty("message")) {
-      messase = project.getProperty("message")
+      message = project.getProperty("message")
     }
     if (project.hasProperty("serviceHost")) {
       serviceHost = project.getProperty("serviceHost")
+    }
+    if (project.hasProperty("auto")) {
+        auto = project.getProperty("auto")
     }
 }
 
@@ -144,14 +147,15 @@ task runClientJava(type: JavaExec) {
   dependsOn arguments
   classpath = sourceSets.main.runtimeClasspath
   description = "Run Client"
-  main = 'example.grpcclient.EchoClient'
+  main = 'examples.grpcClient.EchoClient'
   standardInput = System.in
   // default args
   args serviceHost 
   args servicePort
   args registryHost
   args grpcPort
-  args message 
+  args message
+    args auto
 }
 
 // runs a service node which already has the echo and joke service included
@@ -159,7 +163,7 @@ task runNode(type: JavaExec) {
   dependsOn arguments
   classpath = sourceSets.main.runtimeClasspath
   description = "Run Server"
-  main = 'example.grpcclient.Node'
+  main = 'examples.grpcClient.Node'
   // default args
   args registryHost
   args grpcPort
@@ -173,7 +177,7 @@ task runNode(type: JavaExec) {
 // ser321test.duckdns.org is my IP on the first AWS instance
 // on AWS instance: 
 
-// gradle runRegistryServer -PgrpcPort=8080
+//// gradle runRegitryServer -PgrpcPort=8080
 
 // On a different AWS instance (could be the same one though just different ports)
 // gradle runNode -PnodeName="amehlhas" -PgrpcPort=8080 -PregistryHost="ser321test.duckdns.org" -PserviceHost="18.220.233.57" -PdiscoveryPort=8888 -PservicePort=8880
