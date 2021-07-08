@@ -1,0 +1,29 @@
+// This service allows for the user to input integer numbers and either the smallest
+// or the largest of the inputs will be returned, depending on the call from the user.
+
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "service";
+option java_outer_classname = "ReturnSmallestLargestProto";
+
+package services;
+
+service ReturnSmallestLargest {
+  rpc small (NumberRequest) returns (NumberResponse) {}
+  rpc large (NumberRequest) returns (NumberResponse) {}
+}
+
+
+// The request message sending some input integers
+message NumberRequest {
+  repeated double num = 1;
+}
+
+// The response message
+message NumberResponse {
+  bool isSuccess = 1;
+  double solution = 2; // The smallest or largest value
+  string error = 3; // Error message, a String of your choice to show what went wrong
+}
+

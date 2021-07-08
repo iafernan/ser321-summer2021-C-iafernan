@@ -16,6 +16,7 @@ Will run a node with an Echo and Joke service. The node registers itself on the 
 
 ### gradle runClientJava
 Will run a client which will call the services from the node, it talks to the node directly not through the registry. At the end the client does some calls to the Registry to pull the services, this will be needed later.
+Add the argument -Pauto = 1 in order to run a set of hard coded tests that test the outputs of the services provided by the node.  Be sure to have a node or a registry and a node running first.
 
 ### gradle runDiscovery
 Will create a couple of threads with each running a node with services in JSON and Protobuf. This is just an example and not needed for assignment 6. 
@@ -25,3 +26,9 @@ Registers the protobuf nodes from runDiscovery and do some calls.
 
 ### gradle testJSONRegistration
 Registers the json nodes from runDiscovery and do some calls. 
+
+### Added (Task 1)CalcImpl, (Task 1)StoryImpl, and (Task 2)ReturnSmallestLargestImpl ###
+The client will be presented the option of selecting from any of these services.  ReturnSmallestLargest is a custom service that
+returns either the smallest or largest value input by the user.    
+
+
