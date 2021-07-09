@@ -375,7 +375,7 @@ public class Client {
                 client.getServices();
 
                 // get story read
-                (client.findServer("services.Story/read");
+                client.findServer("services.Story/read");
 
                 // get story write
                 client.findServer("services.Story/write");

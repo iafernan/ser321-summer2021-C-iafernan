@@ -34,14 +34,15 @@ public final class ReturnSmallestLargestProto {
   static {
     java.lang.String[] descriptorData = {
       "\n$services/returnsmallestlargest.proto\022\010" +
-      "services\"\034\n\rNumberRequest\022\013\n\003num\030\001 \003(\001\"D" +
+      "services\"\034\n\rNumberRequest\022\013\n\003num\030\001 \003(\001\"]" +
       "\n\016NumberResponse\022\021\n\tisSuccess\030\001 \001(\010\022\020\n\010s" +
-      "olution\030\002 \001(\001\022\r\n\005error\030\003 \001(\t2\223\001\n\025ReturnS" +
-      "mallestLargest\022<\n\005small\022\027.services.Numbe" +
-      "rRequest\032\030.services.NumberResponse\"\000\022<\n\005" +
-      "large\022\027.services.NumberRequest\032\030.service" +
-      "s.NumberResponse\"\000B\'\n\007serviceB\032ReturnSma" +
-      "llestLargestProtoP\001b\006proto3"
+      "olution\030\002 \001(\001\022\027\n\017storedResponses\030\003 \001(\t\022\r" +
+      "\n\005error\030\004 \001(\t2\223\001\n\025ReturnSmallestLargest\022" +
+      "<\n\005small\022\027.services.NumberRequest\032\030.serv" +
+      "ices.NumberResponse\"\000\022<\n\005large\022\027.service" +
+      "s.NumberRequest\032\030.services.NumberRespons" +
+      "e\"\000B\'\n\007serviceB\032ReturnSmallestLargestPro" +
+      "toP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -58,7 +59,7 @@ public final class ReturnSmallestLargestProto {
     internal_static_services_NumberResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_services_NumberResponse_descriptor,
-        new java.lang.String[] { "IsSuccess", "Solution", "Error", });
+        new java.lang.String[] { "IsSuccess", "Solution", "StoredResponses", "Error", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

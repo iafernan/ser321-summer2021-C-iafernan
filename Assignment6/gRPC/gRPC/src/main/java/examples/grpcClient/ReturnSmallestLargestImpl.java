@@ -21,6 +21,8 @@ import buffers.ResponseProtos.Response;
 
 public class ReturnSmallestLargestImpl extends ReturnSmallestLargestGrpc.ReturnSmallestLargestImplBase{
 
+    private ArrayList<String> storedResponses = new ArrayList<String>();
+
     public ReturnSmallestLargestImpl(){
         super();
     }
@@ -34,11 +36,13 @@ public class ReturnSmallestLargestImpl extends ReturnSmallestLargestGrpc.ReturnS
             for (int i = 1; i < request.getNumList().size(); i ++) {
                 if(small > request.getNum(i)){
                     small = request.getNum(i);
+                    storedResponses.add(String.valueOf(small));
                 }
             }
 
             responseBuilder.setIsSuccess(true);
             responseBuilder.setSolution(small);
+            responseBuilder.setStoredResponses(storedResponses.toString());
             NumberResponse response = responseBuilder.build();
             responseObserver.onNext(response);
             responseObserver.onCompleted();
@@ -57,11 +61,13 @@ public class ReturnSmallestLargestImpl extends ReturnSmallestLargestGrpc.ReturnS
             for (int i = 1; i < request.getNumList().size(); i ++) {
                 if(large < request.getNum(i)){
                     large = request.getNum(i);
+                    storedResponses.add(String.valueOf(large));
                 }
             }
 
             responseBuilder.setIsSuccess(true);
             responseBuilder.setSolution(large);
+            responseBuilder.setStoredResponses(storedResponses.toString());
             NumberResponse response = responseBuilder.build();
             responseObserver.onNext(response);
             responseObserver.onCompleted();

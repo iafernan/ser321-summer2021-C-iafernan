@@ -24,11 +24,23 @@ public interface NumberResponseOrBuilder extends
   double getSolution();
 
   /**
+   * <code>string storedResponses = 3;</code>
+   * @return The storedResponses.
+   */
+  java.lang.String getStoredResponses();
+  /**
+   * <code>string storedResponses = 3;</code>
+   * @return The bytes for storedResponses.
+   */
+  com.google.protobuf.ByteString
+      getStoredResponsesBytes();
+
+  /**
    * <pre>
    * Error message, a String of your choice to show what went wrong
    * </pre>
    *
-   * <code>string error = 3;</code>
+   * <code>string error = 4;</code>
    * @return The error.
    */
   java.lang.String getError();
@@ -37,7 +49,7 @@ public interface NumberResponseOrBuilder extends
    * Error message, a String of your choice to show what went wrong
    * </pre>
    *
-   * <code>string error = 3;</code>
+   * <code>string error = 4;</code>
    * @return The bytes for error.
    */
   com.google.protobuf.ByteString

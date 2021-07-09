@@ -20,6 +20,7 @@ private static final long serialVersionUID = 0L;
     super(builder);
   }
   private NumberResponse() {
+    storedResponses_ = "";
     error_ = "";
   }
 
@@ -64,6 +65,12 @@ private static final long serialVersionUID = 0L;
             break;
           }
           case 26: {
+            java.lang.String s = input.readStringRequireUtf8();
+
+            storedResponses_ = s;
+            break;
+          }
+          case 34: {
             java.lang.String s = input.readStringRequireUtf8();
 
             error_ = s;
@@ -127,14 +134,52 @@ private static final long serialVersionUID = 0L;
     return solution_;
   }
 
-  public static final int ERROR_FIELD_NUMBER = 3;
+  public static final int STOREDRESPONSES_FIELD_NUMBER = 3;
+  private volatile java.lang.Object storedResponses_;
+  /**
+   * <code>string storedResponses = 3;</code>
+   * @return The storedResponses.
+   */
+  @java.lang.Override
+  public java.lang.String getStoredResponses() {
+    java.lang.Object ref = storedResponses_;
+    if (ref instanceof java.lang.String) {
+      return (java.lang.String) ref;
+    } else {
+      com.google.protobuf.ByteString bs = 
+          (com.google.protobuf.ByteString) ref;
+      java.lang.String s = bs.toStringUtf8();
+      storedResponses_ = s;
+      return s;
+    }
+  }
+  /**
+   * <code>string storedResponses = 3;</code>
+   * @return The bytes for storedResponses.
+   */
+  @java.lang.Override
+  public com.google.protobuf.ByteString
+      getStoredResponsesBytes() {
+    java.lang.Object ref = storedResponses_;
+    if (ref instanceof java.lang.String) {
+      com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString.copyFromUtf8(
+              (java.lang.String) ref);
+      storedResponses_ = b;
+      return b;
+    } else {
+      return (com.google.protobuf.ByteString) ref;
+    }
+  }
+
+  public static final int ERROR_FIELD_NUMBER = 4;
   private volatile java.lang.Object error_;
   /**
    * <pre>
    * Error message, a String of your choice to show what went wrong
    * </pre>
    *
-   * <code>string error = 3;</code>
+   * <code>string error = 4;</code>
    * @return The error.
    */
   @java.lang.Override
@@ -155,7 +200,7 @@ private static final long serialVersionUID = 0L;
    * Error message, a String of your choice to show what went wrong
    * </pre>
    *
-   * <code>string error = 3;</code>
+   * <code>string error = 4;</code>
    * @return The bytes for error.
    */
   @java.lang.Override
@@ -193,8 +238,11 @@ private static final long serialVersionUID = 0L;
     if (solution_ != 0D) {
       output.writeDouble(2, solution_);
     }
+    if (!getStoredResponsesBytes().isEmpty()) {
+      com.google.protobuf.GeneratedMessageV3.writeString(output, 3, storedResponses_);
+    }
     if (!getErrorBytes().isEmpty()) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 3, error_);
+      com.google.protobuf.GeneratedMessageV3.writeString(output, 4, error_);
     }
     unknownFields.writeTo(output);
   }
@@ -213,8 +261,11 @@ private static final long serialVersionUID = 0L;
       size += com.google.protobuf.CodedOutputStream
         .computeDoubleSize(2, solution_);
     }
+    if (!getStoredResponsesBytes().isEmpty()) {
+      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, storedResponses_);
+    }
     if (!getErrorBytes().isEmpty()) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, error_);
+      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, error_);
     }
     size += unknownFields.getSerializedSize();
     memoizedSize = size;
@@ -236,6 +287,8 @@ private static final long serialVersionUID = 0L;
     if (java.lang.Double.doubleToLongBits(getSolution())
         != java.lang.Double.doubleToLongBits(
             other.getSolution())) return false;
+    if (!getStoredResponses()
+        .equals(other.getStoredResponses())) return false;
     if (!getError()
         .equals(other.getError())) return false;
     if (!unknownFields.equals(other.unknownFields)) return false;
@@ -255,6 +308,8 @@ private static final long serialVersionUID = 0L;
     hash = (37 * hash) + SOLUTION_FIELD_NUMBER;
     hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
         java.lang.Double.doubleToLongBits(getSolution()));
+    hash = (37 * hash) + STOREDRESPONSES_FIELD_NUMBER;
+    hash = (53 * hash) + getStoredResponses().hashCode();
     hash = (37 * hash) + ERROR_FIELD_NUMBER;
     hash = (53 * hash) + getError().hashCode();
     hash = (29 * hash) + unknownFields.hashCode();
@@ -398,6 +453,8 @@ private static final long serialVersionUID = 0L;
 
       solution_ = 0D;
 
+      storedResponses_ = "";
+
       error_ = "";
 
       return this;
@@ -428,6 +485,7 @@ private static final long serialVersionUID = 0L;
       service.NumberResponse result = new service.NumberResponse(this);
       result.isSuccess_ = isSuccess_;
       result.solution_ = solution_;
+      result.storedResponses_ = storedResponses_;
       result.error_ = error_;
       onBuilt();
       return result;
@@ -482,6 +540,10 @@ private static final long serialVersionUID = 0L;
       }
       if (other.getSolution() != 0D) {
         setSolution(other.getSolution());
+      }
+      if (!other.getStoredResponses().isEmpty()) {
+        storedResponses_ = other.storedResponses_;
+        onChanged();
       }
       if (!other.getError().isEmpty()) {
         error_ = other.error_;
@@ -590,13 +652,89 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
+    private java.lang.Object storedResponses_ = "";
+    /**
+     * <code>string storedResponses = 3;</code>
+     * @return The storedResponses.
+     */
+    public java.lang.String getStoredResponses() {
+      java.lang.Object ref = storedResponses_;
+      if (!(ref instanceof java.lang.String)) {
+        com.google.protobuf.ByteString bs =
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        storedResponses_ = s;
+        return s;
+      } else {
+        return (java.lang.String) ref;
+      }
+    }
+    /**
+     * <code>string storedResponses = 3;</code>
+     * @return The bytes for storedResponses.
+     */
+    public com.google.protobuf.ByteString
+        getStoredResponsesBytes() {
+      java.lang.Object ref = storedResponses_;
+      if (ref instanceof String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        storedResponses_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+    /**
+     * <code>string storedResponses = 3;</code>
+     * @param value The storedResponses to set.
+     * @return This builder for chaining.
+     */
+    public Builder setStoredResponses(
+        java.lang.String value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  
+      storedResponses_ = value;
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>string storedResponses = 3;</code>
+     * @return This builder for chaining.
+     */
+    public Builder clearStoredResponses() {
+      
+      storedResponses_ = getDefaultInstance().getStoredResponses();
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>string storedResponses = 3;</code>
+     * @param value The bytes for storedResponses to set.
+     * @return This builder for chaining.
+     */
+    public Builder setStoredResponsesBytes(
+        com.google.protobuf.ByteString value) {
+      if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+      
+      storedResponses_ = value;
+      onChanged();
+      return this;
+    }
+
     private java.lang.Object error_ = "";
     /**
      * <pre>
      * Error message, a String of your choice to show what went wrong
      * </pre>
      *
-     * <code>string error = 3;</code>
+     * <code>string error = 4;</code>
      * @return The error.
      */
     public java.lang.String getError() {
@@ -616,7 +754,7 @@ private static final long serialVersionUID = 0L;
      * Error message, a String of your choice to show what went wrong
      * </pre>
      *
-     * <code>string error = 3;</code>
+     * <code>string error = 4;</code>
      * @return The bytes for error.
      */
     public com.google.protobuf.ByteString
@@ -637,7 +775,7 @@ private static final long serialVersionUID = 0L;
      * Error message, a String of your choice to show what went wrong
      * </pre>
      *
-     * <code>string error = 3;</code>
+     * <code>string error = 4;</code>
      * @param value The error to set.
      * @return This builder for chaining.
      */
@@ -656,7 +794,7 @@ private static final long serialVersionUID = 0L;
      * Error message, a String of your choice to show what went wrong
      * </pre>
      *
-     * <code>string error = 3;</code>
+     * <code>string error = 4;</code>
      * @return This builder for chaining.
      */
     public Builder clearError() {
@@ -670,7 +808,7 @@ private static final long serialVersionUID = 0L;
      * Error message, a String of your choice to show what went wrong
      * </pre>
      *
-     * <code>string error = 3;</code>
+     * <code>string error = 4;</code>
      * @param value The bytes for error to set.
      * @return This builder for chaining.
      */
