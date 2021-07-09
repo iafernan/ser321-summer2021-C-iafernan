@@ -52,6 +52,7 @@ public class Client {
         }
         System.out.println("Received from server: " + response.getSolution());
         System.out.println("Received from server: Is success? " + " " + response.getIsSuccess());
+        System.out.println("Received from server: response list " + " " + response.getStoredResponses());
 
     }
 
@@ -66,6 +67,7 @@ public class Client {
         }
         System.out.println("Received from server: " + response.getSolution());
         System.out.println("Received from server: Is success? " + " " + response.getIsSuccess());
+        System.out.println("Received from server: response list " + " " + response.getStoredResponses());
 
     }
 

@@ -24,6 +24,7 @@ message NumberRequest {
 message NumberResponse {
   bool isSuccess = 1;
   double solution = 2; // The smallest or largest value
-  string error = 3; // Error message, a String of your choice to show what went wrong
+  string storedResponses = 3;
+  string error = 4; // Error message, a String of your choice to show what went wrong
 }
 
